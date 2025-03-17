@@ -4165,13 +4165,22 @@ h6, .h6 {
 /*******************************************************/
 .form-style-one .form-group {
   margin-bottom: 32px; }
-  .form-style-one .form-group .for-icon {
+.form-style-one .form-group .for-icon {
     left: 26px;
     font-size: 16px;
     margin-bottom: 0;
     position: absolute;
     margin-top: -47px;
     color: rgba(255, 255, 255, 0.2); }
+.form-style-one .form-group #id_Name,
+.form-style-one .form-group #id_Email,
+.form-style-one .form-group #id_Phone,
+.form-style-one .form-group #id_Title,
+.form-style-one .form-group #id_Text {
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 18px;
+    font-family: font-medium, sans-serif;}
   .form-style-one .form-group .nice-select,
   .form-style-one .form-group .form-control {
     font-size: 16px;

@@ -687,7 +687,6 @@
                 <div class="col-lg-8">
                     <div class="contact-page-form contact-form form-style-one wow fadeInUp delay-0-2s">
                         <form id="contactForm" class="contactForm" name="contactForm" method="POST">
-                            <div class="row">
                                 <div class="form-group">
                                     {% csrf_token %}
                                     {{ form.as_p }} 
@@ -697,7 +696,6 @@
                                         <button type="submit" class="theme-btn">Send</button>
                                     </div>
                                 </div>
-                            </div>
                         </form>
                     </div>
                 </div>
