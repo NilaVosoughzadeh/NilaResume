@@ -4165,26 +4165,29 @@ h6, .h6 {
 /*******************************************************/
 .form-style-one .form-group {
   margin-bottom: 32px; }
-.form-style-one .form-group .for-icon {
+  .form-style-one .form-group .for-icon {
     left: 26px;
     font-size: 16px;
     margin-bottom: 0;
     position: absolute;
     margin-top: -47px;
     color: rgba(255, 255, 255, 0.2); }
+
 .form-style-one .form-group #id_Name,
 .form-style-one .form-group #id_Email,
 .form-style-one .form-group #id_Phone,
 .form-style-one .form-group #id_Title,
 .form-style-one .form-group #id_Text {
-    font-size: 18px;
+  font-size: 18px;
     color: rgb(0, 0, 0);
     margin-bottom: 18px;
-    font-family: font-medium, sans-serif;}
+    font-family: font-medium, sans-serif;
+}
+
   .form-style-one .form-group .nice-select,
   .form-style-one .form-group .form-control {
     font-size: 16px;
-    color: white;
+    color: rgb(0, 0, 0);
     line-height: 2;
     padding: 19px 30px 19px 30px;
     border-radius: 14px;
@@ -4197,27 +4200,12 @@ h6, .h6 {
       box-shadow: none;
       background: #070707;
       border-color: var(--primary-color); }
-      .form-style-one .form-group .nice-select:focus::-webkit-input-placeholder,
-      .form-style-one .form-group .form-control:focus::-webkit-input-placeholder {
-        color: white; }
-      .form-style-one .form-group .nice-select:focus:-ms-input-placeholder,
-      .form-style-one .form-group .form-control:focus:-ms-input-placeholder {
-        color: white; }
-      .form-style-one .form-group .nice-select:focus::-ms-input-placeholder,
-      .form-style-one .form-group .form-control:focus::-ms-input-placeholder {
-        color: white; }
-      .form-style-one .form-group .nice-select:focus::placeholder,
-      .form-style-one .form-group .form-control:focus::placeholder {
-        color: white; }
-      .form-style-one .form-group .nice-select:focus ~ .for-icon,
-      .form-style-one .form-group .form-control:focus ~ .for-icon {
-        color: white; }
     .form-style-one .form-group .nice-select::-webkit-input-placeholder,
     .form-style-one .form-group .form-control::-webkit-input-placeholder {
-      color: rgba(255, 255, 255, 0.2); }
+      color: rgba(0, 0, 0, 0.2); }
     .form-style-one .form-group .nice-select:-ms-input-placeholder,
     .form-style-one .form-group .form-control:-ms-input-placeholder {
-      color: rgba(255, 255, 255, 0.2); }
+      color: rgba(0, 0, 0, 0.2); }
     .form-style-one .form-group .nice-select::-ms-input-placeholder,
     .form-style-one .form-group .form-control::-ms-input-placeholder {
       color: rgba(255, 255, 255, 0.2); }
